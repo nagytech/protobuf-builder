@@ -4,6 +4,7 @@ services:
     build: .
     volumes:
     - ./dist:/app/dist
+    - ./docs:/app/docs
     - ./include:/app/include
     - ./src:/app/src
 
