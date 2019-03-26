@@ -1,0 +1,9 @@
+version: '3'
+services:
+  protobuf:
+    build: .
+    volumes:
+    - ./dist:/app/dist
+    - ./include:/app/include
+    - ./src:/app/src
+
